@@ -14,7 +14,7 @@ Then:
 
 ## Usage
 
-    var create = require("create");
+    var create = require("object-create-shim");
     ...
     var obj1 = Object.create(someParent1);
     var obj2 = create(someParent2);
